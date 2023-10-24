@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@100;300;500;600;700;800;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size:62.5%;
+}
+
+
+body{
+    font-family: 'Nova Square', cursive;
+    background-color: lightgrey;
+}
+
+header{
+    height: 40vh;
+    color:#fff;
+    background-color: rgb(55, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.typing h1{
+    font-size:8rem;
+}
+.typing span{
+    font-size:8rem;
+}
+
+section{
+    width: 55%;
+    margin:auto;
+    margin-top:7rem;
+        /* background-color: #ece9e9;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.458); */
+    padding:0 3.8rem;
+    min-height:70rem;
+
+}
+
+.todo-list{
+
+    min-height: 20rem;
+    height: fit-content;
+    
+}
+
+section h3{
+    /* border:2px solid black; */
+    padding-top:4rem;
+    padding-bottom: 4rem;
+    font-size:3rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.take-input{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.take-input .btn{
+    font-size:2rem;
+    font-family:'Nova Square', cursive; 
+    width:20%;
+    padding: 1.2rem;
+    background-color: rgb(55, 51, 51);
+
+}
+
+
+
+.take-input .btn[value]{
+    color:white;
+}
+
+.take-input input{
+    font-size: 2rem;
+    width:80%;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    border:1px solid lightgrey;
+}
+
+.take-input input[value]{
+    margin-left:1rem;
+    color:rgb(95, 88, 88);
+}
+
+
+
+.todo-list{
+    list-style-type: none;
+    height: 4.8rem;
+    padding-top: 0.5rem;
+}
+
+
+.todo-list li{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 3.3rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    padding:0.5rem;
+    background-color: rgb(55, 51, 51);
+    color:#fff;
+    border-radius: 0.4rem;
+    padding-left:1.5rem;
+}
+
+
+.todo-buttons{
+    display: flex;
+    margin-right: 0.3rem;
+}
+
+.todo-btn{
+    width: 9rem;
+    height: 3rem;
+    margin-left:0.3rem;
+    font-weight: 700;
+}

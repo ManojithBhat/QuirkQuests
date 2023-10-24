@@ -1,0 +1,18 @@
+button{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-size:2.2rem;
+    padding:1rem 1.2rem;
+    border-radius:10px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.42);
+    transition: all 0.4s;
+}
+
+button:visited{
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.417);
+}

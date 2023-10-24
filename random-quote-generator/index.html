@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quote Generator</title>
+</head>
+<body>
+   
+     <h2 class="main-heading">Quote Generator</h2>
+    <div class="container">
+        <p class="quote">
+            hellp
+        </p>
+        <p class="auth">
+            yaaro
+        </p>
+        <button class="btn btn-next">next</button>
+        <button class="btn btn-loop">Auto</button>
+    </div>
+    <h4 class="inspire">We <span class="quote-inside"></span></h4>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var type = new Typed('.quote-inside',{
+            strings:['Inspire!!','Connect!!','Live!!'],
+            typeSpeed:150,
+            backSpeed:150,
+            loop:true
+        })
+    </script>
+</body>
+</html>

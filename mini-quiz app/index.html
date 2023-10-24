@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- start button -->
+    <div class="start_btn" id='first-btn'>
+        <button>Start Quiz</button>
+    </div>
+
+    <!-- info-box -->
+    <div class="info-box">
+        <div class="info-title">
+            <span>Some rules of the quiz </span>
+        </div>
+        <div class="info">1.You will have <span>15 seconds </span>for each question</div>
+        <div class="info">2.Once you select your answer, you can't reselect</div>
+        <div class="info">3.You can't exit from the Quiz while attempting </div>
+        <div class="info">4.No negative marking</div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+
+
+    <!-- quiz box -->
+    <div class="main-box" id="box">
+        <div class="header-quiz">
+            <span class="text-q">Quiz Questions</span>
+            <!-- <div class="time">
+                <span>Time left</span>
+                <div class="time-sec">00</div>
+            </div> -->
+        </div>
+        <div class="body-quiz">
+            <div class="question">what does php stand for?</div>
+            <div class="option1"><input class='options' id='option1' value='a'type='radio' name='option'/>
+                <label for="option1"></label>
+            </div>
+            <div class="option2"><input class='options' id='option2' value='a'type='radio' name='option'/>
+                <label for="option2"></label>
+            </div>
+            <div class="option3"><input class='options' id='option3' value='a'type='radio' name='option'/>
+                <label for="option3"></label>
+            </div>
+            <div class="option4"><input class='options' id='option4' value='a'type='radio' name='option'/>
+                <label for="option4"></label>
+            </div>
+        </div>
+        <div class="footer-quiz">
+            <div class="question-left"><span>1</span> of <span>10</span> Questions</div>
+            <div class="next-question">
+                <button class="next" onclick="onClick()">Next</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="result">
+        <div class="app"><p>Quiz App</p></div>
+        <div class="score">
+            <div class="score-test">
+                Your Score:
+            </div>
+                <div class="final-score">
+                    0
+                </div>
+                <div class="total-score">
+                    /10
+                </div>
+            <button class="btn-restart">Restart Quiz</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>TO-DO</title>
+  </head>
+  <body>
+    <header>
+      <div class="typing">
+        <h1>To do <span class="auto-type"></span></h1>
+      </div>
+    </header>
+
+    <section>
+      <h3>What's your plan for today?</h3>
+      <form class="take-input">
+        <input
+          type="text"
+          name="text"
+          id="text"
+          placeholder="Enter your plan?"
+        />
+        <input type="submit" value="Add Todo" class="btn" />
+      </form>
+
+      <ul class="todo-list"></ul>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var type = new Typed(".auto-type", {
+        strings: ["list!", "today!"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
